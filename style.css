@@ -1,0 +1,271 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(
+    to bottom,
+    rgb(62, 187, 156) 20%,
+    rgb(72, 172, 147) 40%,
+    #418d7a 70%,
+    rgb(53, 114, 99) 90%
+     
+);
+
+}
+
+.read-body{
+    background-image: url('Media/sea.gif');
+    background-repeat: repeat;
+    background-size: 50%;
+}
+.book-title{
+    text-align: center;
+    color: white;
+    background: linear-gradient(
+    to bottom,
+    rgb(65, 122, 108)20%,
+    rgb(119, 223, 197) 70%,
+    rgb(102, 223, 192) 50%,
+    rgb(68, 158, 136)
+    );
+    -webkit-text-stroke-color: rgb(45, 134, 112);
+    -webkit-text-stroke-width: 2px;
+    font-size: 60px;
+    border: 1px rgb(158, 255, 231) solid;
+    width: 650px;
+    justify-self: center;
+    font-family: "Astloch", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    box-shadow: 0px 6px 15px rgb(92, 255, 214), 0px 6px 15px rgb(125, 220, 196);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.led-board{
+    background-color: black;
+    border: 2.5px solid rgb(174, 174, 174);
+    height: 80px;
+    width: 500px;
+    justify-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgb(154, 246, 223), 0 0 19px rgb(154, 246, 223);
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#led-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #75dac1;
+    text-align: center;
+    display: block;
+    padding: 30px;
+    animation: scrollText 20s linear infinite;
+}
+@keyframes scrollText {
+    from {
+        transform: translateX(500px);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+.read-menu{
+    display: block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    height: 40px;
+    width: 111px;
+    justify-self: center;
+    padding: 10px;
+    background-image: url('Media/Boow\ menu.png');
+    background-size: cover;
+    
+}
+.characters-menu{
+    display: block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    height: 40px;
+    width: 111px;
+    justify-self: left;
+    padding: 10px;
+    margin-left: 50px;
+    background-image: url('Media/Boow\ menu.png');
+    background-size: cover;
+}
+.third-page-menu{
+    display: flex;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    height: 40px;
+    width: 87px;
+    justify-self: right;
+    margin-right: 50px;
+    padding: 10px;
+    background-image: url('Media/Boow\ menu.png');
+    background-size: cover;
+    
+}
+.teaser-lines-right{
+    display: block;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    padding-right: 30px;
+    margin: 80px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+.teaser-lines-left{
+    display: block;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    padding-left: 30px;
+    margin: 80px;
+    font-weight: 500;
+}
+/*homepage countdown start*/
+.countdown {
+    display:block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-image: url('Media/flower-1.png');
+    background-position:30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.countdown h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 26px;
+    justify-self: center;
+}
+.timebox {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    background-image: url('Media/countdownbackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 5px rgb(36, 30, 27), 0 0 19px rgb(36, 30, 27);
+    height: 150px;
+    width: 450px;
+    justify-self: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.time {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+.time p {
+    margin-top: 0px;
+    margin-bottom: 2PX;
+}
+/*homepage countdown end*/
+.hublot-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 80px 10%;
+    margin-top: 115px;
+    justify-content: center;
+    
+}
+.hublot {
+    height: 300px;
+    width: 300px;
+   
+}
+.under-window {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: white;
+    margin-left: 105px;
+    
+}
+/*Character page start*/
+.shell-grid{
+    display:grid;
+    grid-template-columns: repeat(2, 450px);
+    justify-content: center;
+    justify-items: center;
+}
+.shell-1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 45px;
+    text-align: center;
+    justify-content: center;
+    background-image: url('Media/shell-1.png');
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    cursor:pointer;
+}
+.shell-2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 45px;
+    text-align: center;
+    justify-content: center;
+    background-image: url('Media/shell-2.png');
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    cursor:pointer;
+}
+.shell-3{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 45px;
+    text-align: center;
+    justify-content: center;
+    background-image: url('Media/shell-3.png');
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    cursor:pointer;
+}
+/*character page end */
+ a:link {
+    color: rgb(7, 6, 5);
+}
+a:visited {
+    color:rgb(255, 255, 255);
+}
+a:hover {
+    color:rgba(95, 219, 147, 0.856);
+}
