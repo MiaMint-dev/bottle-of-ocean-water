@@ -119,16 +119,21 @@ body {
 .teaser-lines-right{
     display: block;
     text-align: center;
+    width: 900px;
+    justify-self: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 23px;
     color: white;
     font-weight: 800;
     margin-top: 30px;
     height: 75px;
+    margin: ;
 }
 .teaser-lines-left{
     display: block;
     text-align: center;
+    width: 900px;
+    justify-self: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 23px;
     color: white;
